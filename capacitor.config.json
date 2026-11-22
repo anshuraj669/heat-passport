@@ -1,0 +1,14 @@
+{
+  "appId": "com.heatpassport.app",
+  "appName": "Heat Passport",
+  "webDir": "dist",
+  "server": {
+    "androidScheme": "http",
+    "cleartext": true
+  },
+  "plugins": {
+    "LocalNotifications": {
+      "iconColor": "#D9480F"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="shortcut_call_short">Ligar emergência</string>
+    <string name="shortcut_call_long">Ligar para emergência e avisar o supervisor</string>
+    <string name="shortcut_sick_short">Não estou bem</string>
+    <string name="shortcut_sick_long">Não estou bem: primeiros socorros</string>
+</resources>

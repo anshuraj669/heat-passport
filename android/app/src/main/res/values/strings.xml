@@ -1,0 +1,11 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Heat Passport</string>
+    <string name="title_activity_main">Heat Passport</string>
+    <string name="package_name">com.heatpassport.app</string>
+    <string name="custom_url_scheme">com.heatpassport.app</string>
+    <string name="shortcut_call_short">Call emergency</string>
+    <string name="shortcut_call_long">Call emergency and alert supervisor</string>
+    <string name="shortcut_sick_short">I feel sick</string>
+    <string name="shortcut_sick_long">I feel sick: get first aid</string>
+</resources>

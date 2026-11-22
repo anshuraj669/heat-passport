@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Long-press the app icon. "Call emergency" opens the dialer on the local number and alerts the
+     supervisor; "I feel sick" opens the symptom list. Both open com.heatpassport.app://<action>. -->
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="call_emergency"
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_call"
+        android:shortcutShortLabel="@string/shortcut_call_short"
+        android:shortcutLongLabel="@string/shortcut_call_long">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="com.heatpassport.app://call"
+            android:targetPackage="com.heatpassport.app"
+            android:targetClass="com.heatpassport.app.MainActivity" />
+    </shortcut>
+    <shortcut
+        android:shortcutId="feel_sick"
+        android:enabled="true"
+        android:icon="@drawable/ic_shortcut_sick"
+        android:shortcutShortLabel="@string/shortcut_sick_short"
+        android:shortcutLongLabel="@string/shortcut_sick_long">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="com.heatpassport.app://sick"
+            android:targetPackage="com.heatpassport.app"
+            android:targetClass="com.heatpassport.app.MainActivity" />
+    </shortcut>
+</shortcuts>

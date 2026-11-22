@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- White phone on the app's emergency red. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp" android:height="48dp" android:viewportWidth="48" android:viewportHeight="48">
+    <path android:fillColor="#B4231A" android:pathData="M24,0a24,24 0,1 1,0 48a24,24 0,1 1,0 -48z" />
+    <group android:translateX="12" android:translateY="12">
+        <path android:strokeColor="#FFFFFF" android:strokeWidth="1.9" android:strokeLineCap="round" android:strokeLineJoin="round" android:fillColor="#00000000"
+            android:pathData="M5,3.5h3.5l1.7,4.3 -2.2,1.4a11,11 0,0 0,6.8 6.8l1.4,-2.2 4.3,1.7V19a1.5,1.5 0,0 1,-1.6 1.5A16.5,16.5 0,0 1,3.5 5.1 1.5,1.5 0,0 1,5 3.5z" />
+    </group>
+</vector>
